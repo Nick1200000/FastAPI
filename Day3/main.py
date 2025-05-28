@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Path, HTTPException, Query
+from fastapi import FastAPI, Path, HTTPException, Query # pyright: ignore[reportMissingImports]
 import os
 import json
 
